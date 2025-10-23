@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rack King (PTY) Ltd — Static Website
 
 A lightweight, static site you can host on GitHub Pages, Netlify, or any web host.
@@ -26,3 +27,21 @@ A lightweight, static site you can host on GitHub Pages, Netlify, or any web hos
 - Electric orange: `#FF6A00`
 
 © 2025 Rack King (PTY) Ltd
+=======
+## Hi there 👋
+
+<!--
+**RACKKiNG-SA/RACKKiNG-SA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+>>>>>>> 0013e0feeb9edaced2fe8b60cb62b84d77ec2009
