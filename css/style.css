@@ -1,0 +1,136 @@
+[05:48, 10/24/2025] Thardt: <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rack King (PTY) Ltd — Racking, Shelving & Mezzanine Floors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="/">
+        <img src="logo.png" alt="Rack King logo" />
+        <span>Rack King (PTY) Ltd</span>
+      </a>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#inspections">Inspections</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="https://wa.me/27XXXXXXXXX" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Industrial Racking &amp; Shelving — Done Right.</h1>
+      <p>We buy, sell, install, refurbish and inspect racking, shelving and mezzanine floors for warehouses and factories across <strong>Gauteng, Mpumalanga, and Limpopo</strong>.</p>
+      <div class="badges">Pallet Racking • Cantilever • Mezzanine Floors • Inspections • Engineering Certificates</div>
+    </section>
+
+    <section id="quote" class="card">
+      <h2>Fast Quote</h2>
+      <form action="https://wa.me/27XXXXXXXXX" method="get" target="_blank">
+        <label>Floor area (m²)
+          <input name="area" placeholder="e.g. 4000" />
+        </label>
+        <label>Pallet positions
+          <input name="pallets" placeholder="e.g. 2500" />
+        </label>
+        <label>Message
+          <textarea name="text" placeholder="Add details: height, beam levels, timeframe…"></textarea>
+        </label>
+        <button type="submit">Send via WhatsApp</button>
+      </form>
+      <p class="note"><a href="#services">Explore services</a></p>
+    </section>
+
+    <section id="services" class="grid">
+      <div class="card"><h3>Supply & Install</h3><p>Pallet racking, shelving, cantilever & mezzanine floors.</p></div>
+      <div class="card"><h3>Refurbish</h3><p>Buy-backs, repairs, repainting and reconfiguration.</p></div>
+      <div class="card" id="inspections"><h3>Inspections</h3><p>Annual safety inspections & engineering certificates.</p></div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>Rack King is a South African team specialising in turnkey warehouse storage solutions with rapid quotes and safe, compliant installs.</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p><strong>Service Area:</strong> Gauteng • Mpumalanga • Limpopo</p>
+      <p><strong>Phone:</strong> 0XX XXX XXXX &nbsp;|&nbsp; <strong>Email:</strong> info@rackking.co.za</p>
+      <p><a class="cta" href="https://wa.me/27XXXXXXXXX" target="_blank" rel="noopener">WhatsApp us</a></p>
+    </section>
+  </main>
+
+  <a class="fab" href="https://wa.me/27XXXXXXXXX" target="_blank" rel="noopener" aria-label="WhatsApp chat">💬</a>
+  <footer class="wrap tiny">© Rack King (PTY) Ltd</footer>
+</body>
+</html>
+[05:57, 10/24/2025] Thardt: :root{
+  --blue:#19A7FF;
+  --orange:#FF6A00;
+  --ink:#0f172a;
+  --muted:#64748b;
+  --bg:#f7fafc;
+  --card:#ffffff;
+  --radius:16px;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+}
+
+.wrap{max-width:1100px;margin:auto;padding:0 16px}
+.topbar{
+  position:sticky;top:0;z-index:10;
+  background:#fff;border-bottom:1px solid #e5e7eb;
+}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 16px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:700}
+.brand img{height:44px;width:auto}
+nav a{margin:0 8px;text-decoration:none;color:var(--ink);font-weight:600}
+nav a:hover{color:var(--orange)}
+nav .cta{
+  background:var(--orange);color:#fff;padding:8px 14px;border-radius:999px
+}
+nav .cta:hover{opacity:.9}
+
+.hero{padding:28px 0 4px}
+.hero h1{font-size:clamp(28px,4.5vw,44px);line-height:1.2;margin:.2em 0}
+.hero p{color:var(--muted);max-width:900px}
+.badges{margin:10px 0 0;color:#111;font-weight:600}
+
+.grid{
+  display:grid;gap:16px;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  margin:24px 0;
+}
+.card{
+  background:var(--card);border:1px solid #e5e7eb;border-radius:var(--radius);
+  padding:18px;box-shadow:0 4px 16px rgb(0 0 0 / 6%);
+}
+
+#quote form{display:grid;gap:12px}
+label{display:grid;gap:6px;font-weight:600}
+input,textarea{
+  width:100%;padding:12px 14px;border:1px solid #cbd5e1;border-radius:12px;font:inherit
+}
+textarea{min-height:110px;resize:vertical}
+button,.cta{
+  cursor:pointer;border:0;background:var(--blue);color:white;font-weight:700;
+  padding:12px 16px;border-radius:12px
+}
+button:hover{opacity:.95}
+.fab{
+  position:fixed;right:16px;bottom:16px;height:54px;width:54px;display:grid;place-items:center;
+  background:var(--green,#25D366);color:#fff;border-radius:999px;text-decoration:none;
+  box-shadow:0 8px 20px rgb(0 0 0 / 25%);font-size:26px
+}
