@@ -1,126 +1,72 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Rack King (PTY) Ltd – Racking • Shelving • Inspections</title>
-  <meta name="description" content="Rack King buys, sells, installs, refurbishes, and inspects industrial racking, shelving, and mezzanine floors across Gauteng, Mpumalanga, and Limpopo."/>
-  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"/>
-  <link rel="preload" as="image" href="/assets/logo.svg"/>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="/js/main.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rack King (PTY) Ltd — Racking, Shelving & Mezzanine Floors</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header class="header">
-  <nav class="nav">
-    <a class="brand" href="/"><img src="/assets/logo.svg" alt="Rack King logo"/><span>Rack King (PTY) Ltd</span></a>
-    <a class="" href="/services.html">Services</a>
-    <a class="" href="/inspections.html">Inspections</a>
-    <a class="" href="/about.html">About</a>
-    <a class="" href="/contact.html">Contact</a>
-    <div class="spacer"></div>
-    <div class="cta">
-      <a href="https://wa.me/27821234567" target="_blank">WhatsApp Call Now</a>
-      <a class="btn btn-call" href="tel:+27700000000">Call now</a>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="/">
+        <img src="logo.png" alt="Rack King logo" />
+        <span>Rack King (PTY) Ltd</span>
+      </a>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#inspections">Inspections</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="https://wa.me/27XXXXXXXXX" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
     </div>
-  </nav>
-</header>
+  </header>
 
-<section class="hero">
-  <div class="hero-in">
-    <div>
-      <div class="badges">
-        <span class="badge">Buy • Sell • Install</span>
-        <span class="badge">Refurbish &amp; Inspect</span>
-        <span class="badge">Engineering Certificates</span>
-      </div>
+  <main class="wrap">
+    <section class="hero">
       <h1>Industrial Racking &amp; Shelving — Done Right.</h1>
       <p>We buy, sell, install, refurbish and inspect racking, shelving and mezzanine floors for warehouses and factories across <strong>Gauteng, Mpumalanga, and Limpopo</strong>.</p>
-      <div class="badges">
-        <span class="badge">Pallet Racking</span>
-        <span class="badge">Cantilever</span>
-        <span class="badge">Mezzanine Floors</span>
-        <span class="badge">Inspections</span>
-      </div>
-      <div class="cta" style="margin-top:10px">
-        <a href="https://wa.me/27821234567" target="_blank">WhatsApp Call Now</a>
-        <a class="btn btn-outline" href="/services.html">Explore services</a>
-      </div>
-    </div>
-    <div class="card">
-      <h3>Fast Quote</h3>
-      <p>Tell us your floor size, racking height, and number of pallets. We'll reply on WhatsApp with a budgetary quote today.</p>
-      <form id="quoteForm" style="margin-top:8px">
-        <div class="grid-2">
-          <div>
-            <label>Floor area (m²)<br/><input required type="number" name="area" placeholder="e.g. 4000" style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px"></label>
-          </div>
-          <div>
-            <label>Pallet positions<br/><input required type="number" name="pallets" placeholder="e.g. 2500" style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px"></label>
-          </div>
-        </div>
-        <label style="display:block;margin-top:8px">Message<br/>
-          <textarea name="msg" rows="3" placeholder="Add details: height, beam levels, timeframe…" style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px"></textarea>
+      <div class="badges">Pallet Racking • Cantilever • Mezzanine Floors • Inspections • Engineering Certificates</div>
+    </section>
+
+    <section id="quote" class="card">
+      <h2>Fast Quote</h2>
+      <form action="https://wa.me/27XXXXXXXXX" method="get" target="_blank">
+        <label>Floor area (m²)
+          <input name="area" placeholder="e.g. 4000" />
         </label>
-        <div class="cta" style="margin-top:10px">
-          <button type="submit" class="btn btn-call">Send via WhatsApp</button>
-          <a class="btn btn-outline" href="/inspections.html">Book inspection</a>
-        </div>
+        <label>Pallet positions
+          <input name="pallets" placeholder="e.g. 2500" />
+        </label>
+        <label>Message
+          <textarea name="text" placeholder="Add details: height, beam levels, timeframe…"></textarea>
+        </label>
+        <button type="submit">Send via WhatsApp</button>
       </form>
-    </div>
-  </div>
-</section>
+      <p class="note"><a href="#services">Explore services</a></p>
+    </section>
 
-<div class="card-row">
-  <div class="card">
-    <h3>Supply &amp; Install</h3>
-    <p>End‑to‑end projects: design, supply, install, and certification of new or refurbished racking systems.</p>
-  </div>
-  <div class="card">
-    <h3>Refurbishment</h3>
-    <p>We dismantle, transport, refurbish (sandblast &amp; respray), and reinstall — safely and on schedule.</p>
-  </div>
-  <div class="card">
-    <h3>Safety Inspections</h3>
-    <p>Engineer‑signed inspection reports and repairs to SANS/EN standards to keep your warehouse compliant.</p>
-  </div>
-</div>
+    <section id="services" class="grid">
+      <div class="card"><h3>Supply & Install</h3><p>Pallet racking, shelving, cantilever & mezzanine floors.</p></div>
+      <div class="card"><h3>Refurbish</h3><p>Buy-backs, repairs, repainting and reconfiguration.</p></div>
+      <div class="card" id="inspections"><h3>Inspections</h3><p>Annual safety inspections & engineering certificates.</p></div>
+    </section>
 
-<section class="section">
-  <div class="grid-2">
-    <div class="card">
-      <h3>Where we work</h3>
-      <ul class="list">
-        <li><strong>Gauteng</strong>: Joburg, Pretoria, East Rand (Edenvale, Jet Park, Linbro Park…)</li>
-        <li><strong>Mpumalanga</strong>: Mbombela/Nelspruit, White River, Komatipoort, Chrissiesmeer…</li>
-        <li><strong>Limpopo</strong>: Polokwane and surrounds</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>Popular systems</h3>
-      <ul class="list">
-        <li>Pallet racking (selective, VNA, drive‑in)</li>
-        <li>Cantilever racking</li>
-        <li>Mezzanine floors</li>
-        <li>Small parts shelving (bolt‑on, clip‑in)</li>
-      </ul>
-    </div>
-  </div>
-</section>
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>Rack King is a South African team specialising in turnkey warehouse storage solutions with rapid quotes and safe, compliant installs.</p>
+    </section>
 
-<footer class="footer">
-  <div class="footer-in">
-    <div>
-      <strong>Rack King (PTY) Ltd</strong><br/>
-      Racking • Shelving • Mezzanine Floors • Safety Inspections<br/>
-      Service area: Gauteng · Mpumalanga · Limpopo
-      <div class="notice">Replace the phone and WhatsApp numbers in <code>/js/main.js</code> to your real details.</div>
-    </div>
-    <div style="text-align:right">
-      © 2025 Rack King (PTY) Ltd — All rights reserved.<br/>
-      <a href="/sitemap.xml">Sitemap</a> · <a href="/robots.txt">Robots</a>
-    </div>
-  </div>
-</footer>
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p><strong>Service Area:</strong> Gauteng • Mpumalanga • Limpopo</p>
+      <p><strong>Phone:</strong> 0XX XXX XXXX &nbsp;|&nbsp; <strong>Email:</strong> info@rackking.co.za</p>
+      <p><a class="cta" href="https://wa.me/27XXXXXXXXX" target="_blank" rel="noopener">WhatsApp us</a></p>
+    </section>
+  </main>
+
+  <a class="fab" href="https://wa.me/27XXXXXXXXX" target="_blank" rel="noopener" aria-label="WhatsApp chat">💬</a>
+  <footer class="wrap tiny">© Rack King (PTY) Ltd</footer>
 </body>
 </html>
